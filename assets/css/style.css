@@ -23,7 +23,7 @@ body {
   width: 100%;
   overflow: hidden;
   -webkit-tap-highlight-color: transparent;
-  background: #0b0a0a;
+  background: blue;
   color: #fff; }
 
 .container {
