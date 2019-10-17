@@ -17,16 +17,4 @@ window.addEventListener("DOMContentLoaded", event => {
     }
     return i;
   }
-  var input = document.querySelector(".form_input");
-  input.addEventListener("input", updateValue);
-
-  function updateValue(e) {
-    if (e.target.value.length > 0) {
-      e.target.parentElement.classList.add("form_input-active");
-      e.target.parentElement.classList.remove("form_input-box");
-    } else {
-      e.target.parentElement.classList.remove("form_input-active");
-      e.target.parentElement.classList.add("form_input-box");
-    }
-  }
 });
